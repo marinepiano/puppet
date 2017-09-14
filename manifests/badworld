@@ -1,0 +1,4 @@
+file { '/tmp/bad.txt':
+ensure =>file.
+content => "bad test\n",
+}
